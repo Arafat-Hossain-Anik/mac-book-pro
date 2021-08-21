@@ -55,17 +55,6 @@ function extraServiceCost(serviceName) {
     finalTotalAmount();
 }
 //upgrade service cost
-document.getElementById('btn-memory-16gb').addEventListener('click', function (event) {
+document.getElementById('feature-btn-container').addEventListener('click', function (event) {
     extraServiceCost(event.target.id);
 });
-document.getElementById('btn-storage-512gb').addEventListener('click', function (event) {
-    extraServiceCost(event.target.id);
-});
-document.getElementById('btn-storage-1tb').addEventListener('click', function (event) {
-    extraServiceCost(event.target.id);
-});
-document.getElementById('btn-delivery-with-cost').addEventListener('click', function (event) {
-    extraServiceCost(event.target.id);
-});
-
-
