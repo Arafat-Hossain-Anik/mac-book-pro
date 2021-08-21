@@ -24,7 +24,7 @@ promoBtn.addEventListener('click', function () {
         promoField.value = '';
     }
 });
-//adding extra items/service cost
+//---------------adding extra items/service cost------------//
 //default service cost function
 function defaultServiceCost(defaultCostBtn) {
     document.getElementById(defaultCostBtn).addEventListener('click', function () {
